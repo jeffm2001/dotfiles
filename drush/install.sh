@@ -1,2 +1,2 @@
 #!/bin/sh
-compopser global require drush/drush
+composer global require drush/drush

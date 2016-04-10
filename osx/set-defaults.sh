@@ -177,7 +177,7 @@ defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 # defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # Setting trackpad & mouse speed to a reasonable number
-defaults write -g com.apple.trackpad.scaling 2
+defaults write -g com.apple.trackpad.scaling 1
 defaults write -g com.apple.mouse.scaling 2.5
 
 # Avoiding the creation of .DS_Store files on network volumes

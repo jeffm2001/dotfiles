@@ -11,6 +11,8 @@
       "native-ui"
       "one-dark-syntax"
     ]
+  drupal:
+    fileTypesPhp: "module,install,inc,test"
   editor:
     fontFamily: "Hack"
     fontSize: 15

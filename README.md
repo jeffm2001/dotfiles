@@ -86,7 +86,7 @@ Run this:
 $ git clone https://github.com/caarlos0/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles
 $ script/bootstrap
-$ chsh -s $(which zsh)
+sudo dscl . -create /Users/$USER UserShell $(brew --prefix)/bin/zsh
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.

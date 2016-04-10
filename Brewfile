@@ -51,15 +51,11 @@ brew 'php56-xdebug'
 
 # network tools
 brew 'aircrack-ng'
-brew 'hydra'
 brew 'john'
 brew 'nmap'
 brew 'socat'
 brew 'speedtest_cli'
 brew 'sqlmap'
-
-# git
-brew 'bfg'
 
 # casks
 tap 'caskroom/cask'
