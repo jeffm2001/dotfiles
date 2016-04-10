@@ -6,7 +6,7 @@
       "exception-reporting"
     ]
     hideGitIgnoredFiles: true
-    projectHome: "~/Code/"
+    projectHome: "~/Sites/"
     themes: [
       "native-ui"
       "one-dark-syntax"
