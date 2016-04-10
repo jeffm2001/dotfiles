@@ -19,5 +19,8 @@ apm install \
   linter-ruby \
   native-ui \
   one-dark-syntax \
-  sort-lines
+  sort-lines \
+  language-apache \
+  drupal \
+  atom-htmltidy
 apm remove metrics exception-reporting
