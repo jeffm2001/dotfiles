@@ -267,7 +267,3 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" \
   killall "${app}" > /dev/null 2>&1
 done
 set -e
-
-# Remove duplicates in the "Open With" menu
-/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister \
-  -kill -r -domain local -domain system -domain user
