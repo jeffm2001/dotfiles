@@ -4,8 +4,15 @@
 #
 # This installs some initial versions of node
 
-nvm install stable
-nvm install v4.3
+# intall npm
+if [ ! -d "$HOME/.nvm" ]; then
+  git clone https://github.com/creationix/nvm.git ~/.nvm
+  cd ~/.nvm
+  git checkout `git describe --abbrev=0 --tags`
+  . ~/.nvm/nvm.sh
 
-# install grunt
-npm install -g grunt-cli
+  nvm install stable
+
+  # install grunt
+  npm install -g grunt-cli
+fi

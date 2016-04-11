@@ -37,7 +37,6 @@ brew 'gnu-getopt'
 # more cli tools
 brew 'ack'
 brew 'lynx'
-brew 'nvm'
 brew 'tree'
 
 # web dev stuff
