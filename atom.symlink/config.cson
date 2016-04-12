@@ -1,11 +1,14 @@
 "*":
+  "atom-htmltidy": {}
   core:
     autoHideMenuBar: true
     disabledPackages: [
       "metrics"
       "exception-reporting"
+      "atom-htmltidy"
     ]
-    hideGitIgnoredFiles: true
+    excludeVcsIgnoredPaths: false
+    hideGitIgnoredFiles: false
     projectHome: "~/Sites/"
     themes: [
       "native-ui"
@@ -17,7 +20,6 @@
     fontFamily: "Hack"
     fontSize: 15
     invisibles: {}
-    scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
   "file-icons":
@@ -30,7 +32,8 @@
     formatTool: "goreturns"
   linter: {}
   "tree-view":
-    hideVcsIgnoredFiles: true
+    autoReveal: true
+    focusOnReveal: false
   "unity-ui":
     showIcons: true
   welcome:

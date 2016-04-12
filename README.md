@@ -83,7 +83,7 @@ a faster and simpler Antigen written in Go.
 Run this:
 
 ```console
-$ git clone https://github.com/caarlos0/dotfiles.git ~/.dotfiles
+$ git clone https://github.com/jeffm2001/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles
 $ script/bootstrap
 sudo dscl . -create /Users/$USER UserShell $(brew --prefix)/bin/zsh
