@@ -8,8 +8,6 @@ apm install \
   color-picker \
   editorconfig \
   file-icons \
-  go-plus \
-  go-rename \
   language-diff \
   language-docker \
   language-puppet \
