@@ -1,23 +1,33 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "4baabc25-ebec-4ba2-adb8-b84b5a5b2e07"
   "atom-htmltidy": {}
   core:
     autoHideMenuBar: true
+    customFileTypes:
+      "text.html.php": [
+        "install"
+      ]
     disabledPackages: [
       "metrics"
       "exception-reporting"
       "atom-htmltidy"
+      "environment"
+      "php-debug"
     ]
     excludeVcsIgnoredPaths: false
     hideGitIgnoredFiles: false
     projectHome: "~/Sites/"
+    telemetryConsent: "limited"
     themes: [
       "native-ui"
       "one-dark-syntax"
     ]
   drupal:
-    fileTypesPhp: "module,install,inc,test"
+    fileTypesPhp: "module,install,inc,test,theme"
   editor:
-    fontFamily: "Hack"
+    fontFamily: "Fira Code"
     fontSize: 15
     invisibles: {}
     showIndentGuide: true
@@ -26,8 +36,26 @@
     coloured: false
     tabPaneIcon: false
   linter: {}
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "php-debug":
+    PathMaps: [
+      "/app/web;/Users/jmann/Sites/aflcio-lando/web"
+    ]
+    ServerPort: 9000
+    currentPanelMode: "bottom"
+  pigments:
+    mergeColorDuplicates: true
+    sortPaletteColors: "by color"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+    syncHorizontalScroll: true
+  tabs: {}
   "tree-view":
-    autoReveal: true
     focusOnReveal: false
   "unity-ui":
     showIcons: true

@@ -9,5 +9,5 @@ caarlos0/zsh-git-fetch-merge
 zsh-users/zsh-autosuggestions
 djui/alias-tips
 srijanshetty/node.plugin.zsh
-tomsquest/nvm-completion.zsh
+# tomsquest/nvm-completion.zsh
 vasyharan/zsh-brew-services
